@@ -1,0 +1,21 @@
+SANDBOX_URL%https://sandbox.2checkout.com/sandbox
+USERNAME_NAME%username
+PASSWORD_ID%password
+LOGIN_BTN_XPATH%//input[@class='btn blue']
+SIGNUP_LINK_TEXT%Sign up
+LOGIN_ERROR_XPATH%//p[contains(text(),'Missing username or password.')]
+LOGIN_INCORRECT_XPATH%//p[contains(text(),'Incorrect username or password.')]
+ACCOUNT_AVATAR_ID%account-avatar
+LOGOUT_BTN_ID%logout
+PRODUCTS_PAGE_URL%https://sandbox.2checkout.com/sandbox/products/
+PRODUCTS_PAGE_XPATH%//a[contains(text(),'Products')]
+ADD_PRODUCT_XPATH%//body/div/div/div/div/div/a[1]
+PRODUCT_NAME_XPATH%//input[@name='name']
+PRODUCT_ID_XPATH%//input[@name='vendor_product_id']
+PRODUCT_PRICE_XPATH%//input[@name='price']
+SAVE_PRODUCT_XPATH%//input[@name='submit']
+FIND_PRODUCTS_XPATH%//div[4]//div[1]//span[3]//strong[1]
+EDIT_PAGE_XPATH%//a[contains(text(),'Edit')]
+SAVE_CHANGES_XPATH%//input[@class='context-btn save']
+CHANGE_PRICE_XPATH%//tr/td[6]/input
+PRODUCTS_XPATH%//tr//td[6]//span

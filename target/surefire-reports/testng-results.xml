@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-11T01:28:01 CEST" name="Suite" finished-at="2020-05-11T01:29:26 CEST" duration-ms="84772">
+    <groups>
+    </groups>
+    <test started-at="2020-05-11T01:28:01 CEST" name="Test" finished-at="2020-05-11T01:29:26 CEST" duration-ms="84772">
+      <class name="tests.LandingPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.LandingPageTest@55a561cf]" started-at="2020-05-11T01:27:55 CEST" name="beforeSuite" finished-at="2020-05-11T01:28:01 CEST" duration-ms="5527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="loginBothFieldsValid()[pri:5, instance:tests.LandingPageTest@55a561cf]" started-at="2020-05-11T01:28:01 CEST" name="loginBothFieldsValid" finished-at="2020-05-11T01:28:10 CEST" duration-ms="9309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBothFieldsValid -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.LandingPageTest@55a561cf]" started-at="2020-05-11T01:29:26 CEST" name="afterSuite" finished-at="2020-05-11T01:29:26 CEST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.LandingPageTest -->
+      <class name="tests.ProductPageTest">
+        <test-method signature="addingProducts()[pri:6, instance:tests.ProductPageTest@3b938003]" started-at="2020-05-11T01:28:10 CEST" name="addingProducts" finished-at="2020-05-11T01:28:55 CEST" duration-ms="44919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingProducts -->
+        <test-method signature="priceChange()[pri:7, instance:tests.ProductPageTest@3b938003]" started-at="2020-05-11T01:28:55 CEST" name="priceChange" finished-at="2020-05-11T01:29:26 CEST" duration-ms="30512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceChange -->
+      </class> <!-- tests.ProductPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
